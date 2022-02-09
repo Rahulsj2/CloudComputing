@@ -1,0 +1,150 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 16px;
+  color: #525252; */
+}
+/*--------------------------------------------------------------
+# Navigation Section
+--------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans');
+
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.left{
+  position: fixed !important;
+  top: 230px;
+}
+
+.left li{
+  list-style-type: none;
+}
+
+.left li i{
+  font-size: 24px;
+  transform: rotate(-90deg);
+  transition: .4s;
+}
+
+
+.left li a:hover{
+  color: rgb(14, 44, 75);
+  transform: translate(-4px, 0px);
+}
+
+
+@media (max-width: 1180px) {
+  .left{
+    display: none;
+  }
+}
+
+.navbar .container .navbar-brand{
+  color:#00272B ;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.navbar .container .navbar-collapse{
+  color:#707070 ;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.hidden{
+  color: #C5D1EB;
+  font-size: 180px;
+  font-weight: 500;
+  font-family: 'Dancing Script', cursive;
+  opacity: 0.2;
+}
+
+#job{
+  padding-top: -90px !important;
+  margin-top: -80px !important;
+  margin-left: 15px !important;
+  font-size: 38px;
+}
+
+.desc{
+  margin-left: 15px !important;
+}
+
+.h-button{
+  border: 1px solid #15416C;
+  border-radius: 25px;
+  color: #15416C;
+  padding: 10px;
+  margin: 10px;
+}
+
+.btn-outline-primary{
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-size: 18px !important;
+}
+
+.design{
+  width: 490px;
+  height: 220px;
+  margin-left: -50px;
+  margin-top: -30px;
+}
+
+.employers{
+  margin-left: 280px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #707070;
+}
+
+.yaaw-logo{
+  color: #00272B;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Dancing Script', cursive;
+  text-transform: uppercase;
+}
+
+
+.about-hidden{
+  color: #C5D1EB;
+  font-size: 100px;
+  font-weight: 500;
+  font-family: 'Dancing Script', cursive;
+  opacity: 0.2;
+}
+
+#job{
+  color: #00272B;
+  padding-top: -60px !important;
+  margin-top: -60px !important;
+  margin-left: 30px !important;
+  font-size: 44px;
+}
+
+/* .pic-card{
+  width: 547px; 
+  height: 756px; 
+  border: 1px;
+  border-radius: 0 25px 80px 0
+} */
+
+.picture{
+  box-shadow:  green 0 0 0 100px inset;
+}
